@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -15,7 +16,7 @@
                 <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="tcb-mR-yWV" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vDa-6H-IP3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-682" y="279"/>
+            <point key="canvasLocation" x="-1318" y="292"/>
         </scene>
         <!--Current Condition View Controller-->
         <scene sceneID="xni-9q-NlW">
@@ -138,8 +139,20 @@
                                 <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0RW-UB-Nf1" customClass="DSWeatherBackground">
+                                <rect key="frame" x="-133" y="0.0" width="640" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="0RW-UB-Nf1" secondAttribute="height" multiplier="640:667" id="OWF-La-rnf"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0RW-UB-Nf1" firstAttribute="centerX" secondItem="UEd-lf-LWq" secondAttribute="centerX" id="1Zw-sx-EJP"/>
+                            <constraint firstItem="0RW-UB-Nf1" firstAttribute="centerY" secondItem="UEd-lf-LWq" secondAttribute="centerY" id="S75-5V-bQ6"/>
+                            <constraint firstItem="0RW-UB-Nf1" firstAttribute="top" secondItem="UEd-lf-LWq" secondAttribute="top" id="Yo3-VX-jQV"/>
+                            <constraint firstItem="skN-9Y-4mx" firstAttribute="top" secondItem="0RW-UB-Nf1" secondAttribute="bottom" id="pQH-zf-fbM"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="cityNameLabel" destination="8Uf-vZ-DfA" id="GiP-P7-HNf"/>
@@ -155,7 +168,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6lv-0p-qRW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="45.600000000000001" y="277.51124437781112"/>
+            <point key="canvasLocation" x="-114.40000000000001" y="277.51124437781112"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="kvN-Vf-wLL">
@@ -173,7 +186,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zXF-rr-Ue9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="753" y="278"/>
+            <point key="canvasLocation" x="1049" y="278"/>
         </scene>
     </scenes>
 </document>
