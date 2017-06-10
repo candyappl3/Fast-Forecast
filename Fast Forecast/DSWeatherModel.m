@@ -33,7 +33,6 @@
         [formatter setTimeZone:[NSTimeZone systemTimeZone]];
         self.currentDate = [formatter stringFromDate:[NSDate date]];
         
-        NSLog(@"sds");
     }
     
     return self;
