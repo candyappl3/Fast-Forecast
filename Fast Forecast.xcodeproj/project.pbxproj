@@ -9,23 +9,35 @@
 /* Begin PBXBuildFile section */
 		465F6C731EEB6CE900F93B93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 465F6C721EEB6CE900F93B93 /* main.m */; };
 		465F6C761EEB6CE900F93B93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 465F6C751EEB6CE900F93B93 /* AppDelegate.m */; };
-		465F6C791EEB6CE900F93B93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 465F6C781EEB6CE900F93B93 /* ViewController.m */; };
 		465F6C7C1EEB6CE900F93B93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 465F6C7A1EEB6CE900F93B93 /* Main.storyboard */; };
 		465F6C7E1EEB6CE900F93B93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 465F6C7D1EEB6CE900F93B93 /* Assets.xcassets */; };
 		465F6C811EEB6CE900F93B93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 465F6C7F1EEB6CE900F93B93 /* LaunchScreen.storyboard */; };
+		465F6C8E1EEB6E6600F93B93 /* DSCurrentConditionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 465F6C8A1EEB6E6600F93B93 /* DSCurrentConditionViewController.m */; };
+		465F6C8F1EEB6E6600F93B93 /* DSServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 465F6C8C1EEB6E6600F93B93 /* DSServerManager.m */; };
+		465F6C971EEB6EF000F93B93 /* DSWeatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 465F6C961EEB6EF000F93B93 /* DSWeatherModel.m */; };
+		465F6C9A1EEB6FFA00F93B93 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 465F6C991EEB6FFA00F93B93 /* AFNetworking.framework */; };
+		ADED95557891D7B46E0A186A /* Pods_Fast_Forecast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B6C3A93CA72D5B8B65D7C7 /* Pods_Fast_Forecast.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35B6C3A93CA72D5B8B65D7C7 /* Pods_Fast_Forecast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fast_Forecast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		465F6C6E1EEB6CE900F93B93 /* Fast Forecast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fast Forecast.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		465F6C721EEB6CE900F93B93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		465F6C741EEB6CE900F93B93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		465F6C751EEB6CE900F93B93 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		465F6C771EEB6CE900F93B93 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		465F6C781EEB6CE900F93B93 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		465F6C7B1EEB6CE900F93B93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		465F6C7D1EEB6CE900F93B93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		465F6C801EEB6CE900F93B93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		465F6C821EEB6CE900F93B93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		465F6C891EEB6E6600F93B93 /* DSCurrentConditionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSCurrentConditionViewController.h; path = ../../newBlocksTest/newBlocksTest/DSCurrentConditionViewController.h; sourceTree = "<group>"; };
+		465F6C8A1EEB6E6600F93B93 /* DSCurrentConditionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSCurrentConditionViewController.m; path = ../../newBlocksTest/newBlocksTest/DSCurrentConditionViewController.m; sourceTree = "<group>"; };
+		465F6C8B1EEB6E6600F93B93 /* DSServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSServerManager.h; path = ../../newBlocksTest/newBlocksTest/DSServerManager.h; sourceTree = "<group>"; };
+		465F6C8C1EEB6E6600F93B93 /* DSServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSServerManager.m; path = ../../newBlocksTest/newBlocksTest/DSServerManager.m; sourceTree = "<group>"; };
+		465F6C951EEB6EF000F93B93 /* DSWeatherModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSWeatherModel.h; sourceTree = "<group>"; };
+		465F6C961EEB6EF000F93B93 /* DSWeatherModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSWeatherModel.m; sourceTree = "<group>"; };
+		465F6C991EEB6FFA00F93B93 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Fast_Forecast-cguomzryviakfygolcnaturyowzw/Build/Products/Debug-iphonesimulator/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
+		5D384726FB5A7D0DDF2B1C59 /* Pods-Fast Forecast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fast Forecast.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fast Forecast/Pods-Fast Forecast.release.xcconfig"; sourceTree = "<group>"; };
+		86B80EE5002B4C0DED7E13A5 /* Pods-Fast Forecast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fast Forecast.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fast Forecast/Pods-Fast Forecast.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				465F6C9A1EEB6FFA00F93B93 /* AFNetworking.framework in Frameworks */,
+				ADED95557891D7B46E0A186A /* Pods_Fast_Forecast.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +58,8 @@
 			children = (
 				465F6C701EEB6CE900F93B93 /* Fast Forecast */,
 				465F6C6F1EEB6CE900F93B93 /* Products */,
+				EE559786832B8995AB0E6649 /* Pods */,
+				4E26D9B85755408C69057058 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +74,12 @@
 		465F6C701EEB6CE900F93B93 /* Fast Forecast */ = {
 			isa = PBXGroup;
 			children = (
-				465F6C741EEB6CE900F93B93 /* AppDelegate.h */,
-				465F6C751EEB6CE900F93B93 /* AppDelegate.m */,
-				465F6C771EEB6CE900F93B93 /* ViewController.h */,
-				465F6C781EEB6CE900F93B93 /* ViewController.m */,
+				465F6C981EEB6EFA00F93B93 /* Models */,
+				465F6C891EEB6E6600F93B93 /* DSCurrentConditionViewController.h */,
+				465F6C8A1EEB6E6600F93B93 /* DSCurrentConditionViewController.m */,
+				465F6C8B1EEB6E6600F93B93 /* DSServerManager.h */,
+				465F6C8C1EEB6E6600F93B93 /* DSServerManager.m */,
 				465F6C7A1EEB6CE900F93B93 /* Main.storyboard */,
-				465F6C7D1EEB6CE900F93B93 /* Assets.xcassets */,
-				465F6C7F1EEB6CE900F93B93 /* LaunchScreen.storyboard */,
-				465F6C821EEB6CE900F93B93 /* Info.plist */,
 				465F6C711EEB6CE900F93B93 /* Supporting Files */,
 			);
 			path = "Fast Forecast";
@@ -74,9 +88,41 @@
 		465F6C711EEB6CE900F93B93 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				465F6C741EEB6CE900F93B93 /* AppDelegate.h */,
+				465F6C751EEB6CE900F93B93 /* AppDelegate.m */,
+				465F6C7D1EEB6CE900F93B93 /* Assets.xcassets */,
+				465F6C7F1EEB6CE900F93B93 /* LaunchScreen.storyboard */,
+				465F6C821EEB6CE900F93B93 /* Info.plist */,
 				465F6C721EEB6CE900F93B93 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		465F6C981EEB6EFA00F93B93 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				465F6C951EEB6EF000F93B93 /* DSWeatherModel.h */,
+				465F6C961EEB6EF000F93B93 /* DSWeatherModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4E26D9B85755408C69057058 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				465F6C991EEB6FFA00F93B93 /* AFNetworking.framework */,
+				35B6C3A93CA72D5B8B65D7C7 /* Pods_Fast_Forecast.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE559786832B8995AB0E6649 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86B80EE5002B4C0DED7E13A5 /* Pods-Fast Forecast.debug.xcconfig */,
+				5D384726FB5A7D0DDF2B1C59 /* Pods-Fast Forecast.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +132,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 465F6C851EEB6CE900F93B93 /* Build configuration list for PBXNativeTarget "Fast Forecast" */;
 			buildPhases = (
+				D960D98C8849535DFB140066 /* [CP] Check Pods Manifest.lock */,
 				465F6C6A1EEB6CE900F93B93 /* Sources */,
 				465F6C6B1EEB6CE900F93B93 /* Frameworks */,
 				465F6C6C1EEB6CE900F93B93 /* Resources */,
+				7E27DAC90CCFFD4122B5A352 /* [CP] Embed Pods Frameworks */,
+				98584E67A5651AE76674DEDF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,12 +195,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7E27DAC90CCFFD4122B5A352 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fast Forecast/Pods-Fast Forecast-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98584E67A5651AE76674DEDF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fast Forecast/Pods-Fast Forecast-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D960D98C8849535DFB140066 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		465F6C6A1EEB6CE900F93B93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				465F6C791EEB6CE900F93B93 /* ViewController.m in Sources */,
+				465F6C8E1EEB6E6600F93B93 /* DSCurrentConditionViewController.m in Sources */,
+				465F6C971EEB6EF000F93B93 /* DSWeatherModel.m in Sources */,
+				465F6C8F1EEB6E6600F93B93 /* DSServerManager.m in Sources */,
 				465F6C761EEB6CE900F93B93 /* AppDelegate.m in Sources */,
 				465F6C731EEB6CE900F93B93 /* main.m in Sources */,
 			);
@@ -271,6 +370,7 @@
 		};
 		465F6C861EEB6CE900F93B93 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86B80EE5002B4C0DED7E13A5 /* Pods-Fast Forecast.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SA6ZVW4F57;
@@ -283,6 +383,7 @@
 		};
 		465F6C871EEB6CE900F93B93 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D384726FB5A7D0DDF2B1C59 /* Pods-Fast Forecast.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SA6ZVW4F57;
@@ -312,6 +413,7 @@
 				465F6C871EEB6CE900F93B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
