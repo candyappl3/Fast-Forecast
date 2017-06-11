@@ -40,7 +40,7 @@
     self.locationManager = [[CLLocationManager alloc] init];
     self.locationManager.delegate = self;
     self.locationManager.distanceFilter = kCLDistanceFilterNone;
-    self.locationManager.desiredAccuracy = kCLLocationAccuracyKilometer;
+    self.locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters;
     [self.locationManager requestWhenInUseAuthorization];
     [self.locationManager requestLocation];
     
@@ -53,7 +53,7 @@
     
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        self.currentLocation = [locations firstObject];
+        self.currentLocation = [locations lastObject];
         
         NSLog(@"rrr");
     });
@@ -90,7 +90,7 @@
     
     __weak CLLocation* weakLocation = currentLocation;
     
-    self.location(weakLocation);
+    self.location(weakLocation);    
     
     CLGeocoder* geocoder = [[CLGeocoder alloc] init];
     [geocoder reverseGeocodeLocation:currentLocation
@@ -108,9 +108,8 @@
                        
                        self.cityName(weakString);
                        
-                       NSLog(@"%@", cityName);
                    }];
-
+    
 }
 
 @end

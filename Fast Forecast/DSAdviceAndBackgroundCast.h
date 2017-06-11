@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface DSAdviceAndBackgroundCast : NSObject
+
+- (instancetype) initWithWeatherCode:(NSString*) code;
+
+@property (strong, nonatomic) NSString* greatAdvice;
+@property (strong, nonatomic) UIImage* weatherImage;
 
 @end
