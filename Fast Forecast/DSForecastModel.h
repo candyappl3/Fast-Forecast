@@ -8,17 +8,12 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "DSModel.h"
 
-@interface DSForecastModel : NSObject
+@interface DSForecastModel : DSModel
 
-@property (strong, nonatomic) NSString* dayTemperature;
 @property (strong, nonatomic) NSString* maxTemp;
 @property (strong, nonatomic) NSString* minTemp;
-@property (strong, nonatomic) NSString* dayDate;
-@property (strong, nonatomic) NSString* dayWeatherDescription;
 @property (strong, nonatomic) NSURL* dayWeatherIcon;
-
-- (instancetype)initWithServerResponse:(NSDictionary*) response;
-
 
 @end

@@ -43,7 +43,7 @@
     static NSString* identifier = @"DayWeatherCell";
     
     DSDayWeatherCell* cell = [tableView dequeueReusableCellWithIdentifier:identifier];
-    cell.temperatureLabel.text = dayWeather.dayTemperature;
+    cell.temperatureLabel.text = dayWeather.temperature;
     cell.maxTempLabel.text = dayWeather.maxTemp;
     cell.minTempLabel.text = dayWeather.minTemp;
     
@@ -53,7 +53,7 @@
             break;
             
         default:
-            cell.dateLabel.text = dayWeather.dayDate;
+            cell.dateLabel.text = dayWeather.date;
             break;
     }
 
@@ -61,9 +61,7 @@
     UIVisualEffectView* effectView = [[UIVisualEffectView alloc] initWithEffect:blur];
     effectView.frame = cell.frame;
     effectView.clipsToBounds = YES;
-    effectView.layer.borderColor = [UIColor blackColor].CGColor;
-    effectView.layer.borderWidth = 0.5f;
-    effectView.layer.cornerRadius = CGRectGetHeight(effectView.frame) / 4;
+    effectView.layer.cornerRadius = CGRectGetHeight(effectView.frame) / 6;
     
     cell.backgroundView = effectView;
     
@@ -97,9 +95,4 @@
 }
 
 
-- (IBAction)tratata:(UIButton *)sender {
-    
-    [self dismissViewControllerAnimated:YES completion:nil];
-    
-}
 @end

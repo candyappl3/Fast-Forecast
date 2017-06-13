@@ -16,7 +16,7 @@
     self = [super init];
     if (self) {
         
-        self.currentTemperature = [NSString stringWithFormat:@"%@ºC", [response valueForKey:@"temp_C"]];
+        self.temperature = [NSString stringWithFormat:@"%@ºC", [response valueForKey:@"temp_C"]];
         self.feelsLike = [NSString stringWithFormat:@"%@ºC", [response valueForKey:@"FeelsLikeC"]];
         self.humidity = [NSString stringWithFormat:@"%@%%", [response valueForKey:@"humidity"]];
         self.cloudCover = [NSString stringWithFormat:@"%@%%", [response valueForKey:@"cloudcover"]];
@@ -29,7 +29,7 @@
         NSDateFormatter* formatter = [[NSDateFormatter alloc] init];
         [formatter setDateFormat:@"d MMMM yyyy"];
         [formatter setTimeZone:[NSTimeZone systemTimeZone]];
-        self.currentDate = [formatter stringFromDate:[NSDate date]];
+        self.date = [formatter stringFromDate:[NSDate date]];
         
         NSString* weatherCode = [response valueForKey:@"weatherCode"];
         

@@ -29,6 +29,7 @@
 		46D311CF1EEF3668002CCD2C /* thunderstorm.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 46D311C71EEF3668002CCD2C /* thunderstorm.jpeg */; };
 		46D311D51EEF454E002CCD2C /* DSWeekForecastController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D311D41EEF454E002CCD2C /* DSWeekForecastController.m */; };
 		46D311DA1EEF45A0002CCD2C /* DSDayWeatherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D311D91EEF45A0002CCD2C /* DSDayWeatherCell.m */; };
+		46D311DD1EF04929002CCD2C /* DSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D311DC1EF04929002CCD2C /* DSModel.m */; };
 		ADED95557891D7B46E0A186A /* Pods_Fast_Forecast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B6C3A93CA72D5B8B65D7C7 /* Pods_Fast_Forecast.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +68,8 @@
 		46D311D41EEF454E002CCD2C /* DSWeekForecastController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSWeekForecastController.m; sourceTree = "<group>"; };
 		46D311D81EEF45A0002CCD2C /* DSDayWeatherCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSDayWeatherCell.h; sourceTree = "<group>"; };
 		46D311D91EEF45A0002CCD2C /* DSDayWeatherCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSDayWeatherCell.m; sourceTree = "<group>"; };
+		46D311DB1EF04929002CCD2C /* DSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSModel.h; sourceTree = "<group>"; };
+		46D311DC1EF04929002CCD2C /* DSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSModel.m; sourceTree = "<group>"; };
 		5D384726FB5A7D0DDF2B1C59 /* Pods-Fast Forecast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fast Forecast.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fast Forecast/Pods-Fast Forecast.release.xcconfig"; sourceTree = "<group>"; };
 		86B80EE5002B4C0DED7E13A5 /* Pods-Fast Forecast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fast Forecast.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fast Forecast/Pods-Fast Forecast.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,12 +135,14 @@
 		465F6C981EEB6EFA00F93B93 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				46D311DB1EF04929002CCD2C /* DSModel.h */,
+				46D311DC1EF04929002CCD2C /* DSModel.m */,
 				46D311BC1EEF0B98002CCD2C /* DSForecastModel.h */,
 				46D311BD1EEF0B98002CCD2C /* DSForecastModel.m */,
-				465F6CB41EEC6E4300F93B93 /* DSAdviceAndBackgroundCast.h */,
-				465F6CB51EEC6E4300F93B93 /* DSAdviceAndBackgroundCast.m */,
 				465F6C951EEB6EF000F93B93 /* DSWeatherModel.h */,
 				465F6C961EEB6EF000F93B93 /* DSWeatherModel.m */,
+				465F6CB41EEC6E4300F93B93 /* DSAdviceAndBackgroundCast.h */,
+				465F6CB51EEC6E4300F93B93 /* DSAdviceAndBackgroundCast.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -341,6 +346,7 @@
 				465F6CB61EEC6E4300F93B93 /* DSAdviceAndBackgroundCast.m in Sources */,
 				465F6C971EEB6EF000F93B93 /* DSWeatherModel.m in Sources */,
 				46D311BE1EEF0B98002CCD2C /* DSForecastModel.m in Sources */,
+				46D311DD1EF04929002CCD2C /* DSModel.m in Sources */,
 				465F6C8F1EEB6E6600F93B93 /* DSServerManager.m in Sources */,
 				465F6C761EEB6CE900F93B93 /* AppDelegate.m in Sources */,
 				46D311D51EEF454E002CCD2C /* DSWeekForecastController.m in Sources */,
@@ -469,6 +475,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SA6ZVW4F57;
 				INFOPLIST_FILE = "Fast Forecast/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dShadrin.Fast-Forecast";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -483,6 +490,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SA6ZVW4F57;
 				INFOPLIST_FILE = "Fast Forecast/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dShadrin.Fast-Forecast";
 				PRODUCT_NAME = "$(TARGET_NAME)";

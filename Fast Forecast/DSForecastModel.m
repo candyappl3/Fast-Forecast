@@ -20,13 +20,13 @@
         [formatter setTimeZone:[NSTimeZone timeZoneForSecondsFromGMT:0]];
         NSDate* date = [formatter dateFromString:[response valueForKey:@"date"]];
         [formatter setDateFormat:@"d MMMM"];
-        self.dayDate = [formatter stringFromDate:date];
+        self.date = [formatter stringFromDate:date];
         
         NSArray* hourlyArray = [response objectForKey:@"hourly"];
         NSDictionary* averageCondition = [hourlyArray objectAtIndex:hourlyArray.count / 2];
         
         NSArray* weatherDesc = [response objectForKey:@"weatherDesc"];
-        self.dayWeatherDescription = [[weatherDesc firstObject] valueForKey:@"value"];
+        self.weatherDescription = [[weatherDesc firstObject] valueForKey:@"value"];
         
         NSArray* weatherIconUrl = [averageCondition objectForKey:@"weatherIconUrl"];
         NSString* baseURL = [[weatherIconUrl firstObject] valueForKey:@"value"];
@@ -34,7 +34,7 @@
         
         self.maxTemp = [NSString stringWithFormat:@"Max: %@ºC", [response valueForKey:@"maxtempC"]];
         self.minTemp = [NSString stringWithFormat:@"Min: %@ºC", [response valueForKey:@"mintempC"]];
-        self.dayTemperature = [NSString stringWithFormat:@"%@ºC", [averageCondition valueForKey:@"tempC"]];
+        self.temperature = [NSString stringWithFormat:@"%@ºC", [averageCondition valueForKey:@"tempC"]];
         
         NSLog(@"");
         
