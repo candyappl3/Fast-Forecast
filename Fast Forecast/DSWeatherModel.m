@@ -16,7 +16,7 @@
     self = [super init];
     if (self) {
         
-        self.currentTemperature = [NSString stringWithFormat:@"%@ ºC", [response valueForKey:@"temp_C"]];
+        self.currentTemperature = [NSString stringWithFormat:@"%@ºC", [response valueForKey:@"temp_C"]];
         self.feelsLike = [NSString stringWithFormat:@"%@ºC", [response valueForKey:@"FeelsLikeC"]];
         self.humidity = [NSString stringWithFormat:@"%@%%", [response valueForKey:@"humidity"]];
         self.cloudCover = [NSString stringWithFormat:@"%@%%", [response valueForKey:@"cloudcover"]];

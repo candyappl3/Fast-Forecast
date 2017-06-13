@@ -10,9 +10,9 @@
 
 @implementation DSAdviceAndBackgroundCast
 
-static NSString* backgroundImages[] = { @"clearSky2.jpg", @"cloudy2.jpg", @"mainlyCloudy2.jpeg",
-                                        @"rain2.jpg", @"snow2.jpeg", @"storm2.jpg",
-                                        @"thunderstorm.jpeg", @"blizzard2.jpg"};
+static NSString* backgroundImages[] = { @"clearSky.jpeg", @"cloudy.jpeg", @"mainlyCloudy.jpeg",
+                                        @"rain.jpg", @"snow.jpeg", @"storm.jpg",
+                                        @"thunderstorm.jpeg", @"blizzard.jpeg"};
 
 static NSString* advices[] = {@"""Погодка прелестная, самое время растрясти жирок.""",
     @"""— А это облако похоже на твое будущее.\n— Нет там никакого облака.\n— Вот именно.""",

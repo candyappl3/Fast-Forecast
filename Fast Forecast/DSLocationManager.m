@@ -11,10 +11,11 @@
 
 @interface DSLocationManager ()
 
-@property(strong, nonatomic) CLLocationManager* locationManager;
-@property(strong, nonatomic) CLLocation* currentLocation;
-@property(copy, nonatomic) CityNameBlock cityName;
-@property(copy, nonatomic) LocationBlock location;
+@property (strong, nonatomic) CLLocationManager* locationManager;
+@property (strong, nonatomic) CLLocation* currentLocation;
+@property (copy, nonatomic) CityNameBlock cityName;
+@property (copy, nonatomic) LocationBlock location;
+@property (assign, nonatomic) BOOL firstUpdating;
 
 
 @end
@@ -37,12 +38,14 @@
 
 - (void)startLocationUpdating {
     
+    self.firstUpdating = YES;
+    
     self.locationManager = [[CLLocationManager alloc] init];
     self.locationManager.delegate = self;
     self.locationManager.distanceFilter = kCLDistanceFilterNone;
     self.locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters;
     [self.locationManager requestWhenInUseAuthorization];
-    [self.locationManager requestLocation];
+    [self.locationManager startUpdatingLocation];
     
 }
 
@@ -50,15 +53,13 @@
 
 - (void)locationManager:(CLLocationManager *)manager
      didUpdateLocations:(NSArray<CLLocation *> *)locations{
-    
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
+
+    if (self.firstUpdating) {
         self.currentLocation = [locations lastObject];
-        
-        NSLog(@"rrr");
-    });
+        self.firstUpdating = NO;
+        [manager stopUpdatingLocation];
+    }
     
-    [manager stopUpdatingLocation];
 }
 
 - (void)locationManager:(CLLocationManager *)manager
