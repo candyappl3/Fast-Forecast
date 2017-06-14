@@ -14,6 +14,5 @@
 @property (strong, nonatomic) NSArray* daysArray;
 @property (weak, nonatomic) IBOutlet UIImageView *weatherBackground;
 @property (strong, nonatomic) UIImage* strongImage;
-- (IBAction)tratata:(UIButton *)sender;
 
 @end
