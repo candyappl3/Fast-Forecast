@@ -35,9 +35,7 @@
         self.maxTemp = [NSString stringWithFormat:@"Max: %@ºC", [response valueForKey:@"maxtempC"]];
         self.minTemp = [NSString stringWithFormat:@"Min: %@ºC", [response valueForKey:@"mintempC"]];
         self.temperature = [NSString stringWithFormat:@"%@ºC", [averageCondition valueForKey:@"tempC"]];
-        
-        NSLog(@"");
-        
+                
     }
     return self;
 }

@@ -22,7 +22,6 @@
     
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
-    self.weatherBackground. image = self.strongImage;
 }
 
 #pragma mark - UITableViewDataSource
@@ -59,9 +58,9 @@
 
     UIBlurEffect* blur = [UIBlurEffect effectWithStyle:UIBlurEffectStyleLight];
     UIVisualEffectView* effectView = [[UIVisualEffectView alloc] initWithEffect:blur];
-    effectView.frame = cell.frame;
+    effectView.frame = cell.bounds;
     effectView.clipsToBounds = YES;
-    effectView.layer.cornerRadius = CGRectGetHeight(effectView.frame) / 6;
+    effectView.layer.cornerRadius = CGRectGetHeight(effectView.bounds) / 6;
     
     cell.backgroundView = effectView;
     

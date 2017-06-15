@@ -10,9 +10,9 @@
 
 @interface DSWeekForecastController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
+@property (assign, nonatomic) NSUInteger pageIndex;
+
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) NSArray* daysArray;
-@property (weak, nonatomic) IBOutlet UIImageView *weatherBackground;
-@property (strong, nonatomic) UIImage* strongImage;
 
 @end
