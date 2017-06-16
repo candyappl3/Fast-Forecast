@@ -13,7 +13,6 @@
 
 @property (strong, nonatomic) CLLocationManager* locationManager;
 @property (strong, nonatomic) CLLocation* currentLocation;
-@property (copy, nonatomic) CityNameBlock cityName;
 @property (copy, nonatomic) LocationBlock location;
 @property (assign, nonatomic) BOOL firstUpdating;
 
@@ -72,26 +71,18 @@
 
 #pragma mark - Location Requests
 
-- (void)getCurrentLocationInfo:(void(^)(CLLocation* location)) successLocation
-                       andInfo:(void(^)(NSString* cityName)) cityInfo
+- (void)getCurrentLocationInfo:(void(^)(CLLocation* location, NSString* cityName)) successLocation
                      onFailure:(void(^)(NSString* error)) failure {
     
-    self.location = ^(CLLocation *responce) {
-        successLocation(responce);
+    self.location = ^(CLLocation *responce, NSString* cityName) {
+        successLocation(responce, cityName);
     };
     
-    self.cityName = ^(NSString *responce) {
-        cityInfo(responce);
-    };
     
 }
 
 
 - (void)setCurrentLocation:(CLLocation *)currentLocation {
-    
-    __weak CLLocation* weakLocation = currentLocation;
-    
-    self.location(weakLocation);    
     
     CLGeocoder* geocoder = [[CLGeocoder alloc] init];
     [geocoder reverseGeocodeLocation:currentLocation
@@ -105,9 +96,10 @@
                            cityName = placemark.administrativeArea;
                        }
                        
+                       __weak CLLocation* weakLocation = currentLocation;
                        __weak NSString* weakString = cityName;
                        
-                       self.cityName(weakString);
+                       self.location(weakLocation, weakString);
                        
                    }];
     

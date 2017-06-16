@@ -40,7 +40,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <subviews>
                                     <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="iK4-lb-Lyj">
-                                        <rect key="frame" x="189" y="350" width="37" height="37"/>
+                                        <rect key="frame" x="8" y="691" width="37" height="37"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="37" id="cgA-VS-dXU"/>
                                             <constraint firstAttribute="height" constant="37" id="ck4-Lh-vGB"/>
@@ -49,8 +49,8 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstItem="iK4-lb-Lyj" firstAttribute="centerX" secondItem="Sg3-w9-tSY" secondAttribute="centerX" id="q5X-qU-nu0"/>
-                                    <constraint firstItem="iK4-lb-Lyj" firstAttribute="centerY" secondItem="Sg3-w9-tSY" secondAttribute="centerY" id="ug8-0d-3Wg"/>
+                                    <constraint firstItem="iK4-lb-Lyj" firstAttribute="centerX" secondItem="Sg3-w9-tSY" secondAttribute="centerX" constant="-180.5" id="q5X-qU-nu0"/>
+                                    <constraint firstItem="iK4-lb-Lyj" firstAttribute="centerY" secondItem="Sg3-w9-tSY" secondAttribute="centerY" constant="341.5" id="ug8-0d-3Wg"/>
                                 </constraints>
                             </view>
                         </subviews>

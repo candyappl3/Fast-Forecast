@@ -8,16 +8,14 @@
 
 #import <CoreLocation/CoreLocation.h>
 
-typedef void(^CityNameBlock)(NSString* responce);
-typedef void(^LocationBlock)(CLLocation* responce);
+typedef void(^LocationBlock)(CLLocation* responce, NSString* cityName);
 
 
 @interface DSLocationManager : CLLocation <CLLocationManagerDelegate>
 
 + (DSLocationManager*)sharedLocation;
 
-- (void)getCurrentLocationInfo:(void(^)(CLLocation* location)) successLocation
-                       andInfo:(void(^)(NSString* cityName)) cityInfo
+- (void)getCurrentLocationInfo:(void(^)(CLLocation* location, NSString* cityName)) successLocation
                      onFailure:(void(^)(NSString* error)) failure;
 
 @end

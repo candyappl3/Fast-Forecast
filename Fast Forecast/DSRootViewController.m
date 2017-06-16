@@ -54,14 +54,11 @@
 
 - (void)getLocation {
     
-    [[DSLocationManager sharedLocation] getCurrentLocationInfo:^(CLLocation *location) {
-        
-        self.currentLocation = location;
-        [self loadCurrentWeather];
-        
-    } andInfo:^(NSString *cityName) {
+    [[DSLocationManager sharedLocation] getCurrentLocationInfo:^(CLLocation *location, NSString* cityName) {
         
         self.cityName = cityName;
+        self.currentLocation = location;
+        [self loadCurrentWeather];
         
     } onFailure:^(NSString *error) {
         
@@ -80,9 +77,8 @@
           [UIView animateWithDuration:0.5 animations:^{
               
               self.weatherBackground.image = weather.weatherBackround;
-              
-              self.currentConditionVC.currentWeather = weather;
               self.currentConditionVC.cityName = self.cityName;
+              self.currentConditionVC.currentWeather = weather;
               
               self.forecastVC.daysArray = forecast;
               
@@ -150,7 +146,6 @@ willTransitionToViewControllers:(NSArray<UIViewController *> *)pendingViewContro
         
     }
 }
-
 
 
 @end
