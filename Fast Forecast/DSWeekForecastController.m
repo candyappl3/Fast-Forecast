@@ -22,6 +22,9 @@
     
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
+    
+    [self.tableView setContentInset:UIEdgeInsetsMake(0, 0, 44.f, 0)];
+
 }
 
 #pragma mark - UITableViewDataSource
@@ -36,6 +39,7 @@
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+
     
     DSForecastModel* dayWeather = [self.daysArray objectAtIndex:indexPath.section];
     
@@ -93,5 +97,13 @@
     return view;
 }
 
+- (nullable NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+    
+    if (section == 0) {
+        return @"14-day Forecast";
+    }
+    
+    return nil;
+}
 
 @end

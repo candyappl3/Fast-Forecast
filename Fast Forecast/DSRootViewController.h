@@ -12,6 +12,6 @@
 
 @property (weak, nonatomic) IBOutlet UIImageView *weatherBackground;
 @property (weak, nonatomic) IBOutlet UIPageControl *pageControl;
-@property (weak, nonatomic) IBOutlet UIView *splashScreen;
+@property (weak, nonatomic) IBOutlet UIToolbar *bottomToolbar;
 
 @end

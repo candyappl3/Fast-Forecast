@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		461DABC11EF3271E00FD1E4C /* DSRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 461DABC01EF3271E00FD1E4C /* DSRootViewController.m */; };
+		461DABC31EF466D900FD1E4C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 461DABC21EF466D900FD1E4C /* SystemConfiguration.framework */; };
 		465F6C731EEB6CE900F93B93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 465F6C721EEB6CE900F93B93 /* main.m */; };
 		465F6C761EEB6CE900F93B93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 465F6C751EEB6CE900F93B93 /* AppDelegate.m */; };
 		465F6C7E1EEB6CE900F93B93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 465F6C7D1EEB6CE900F93B93 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 		35B6C3A93CA72D5B8B65D7C7 /* Pods_Fast_Forecast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fast_Forecast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		461DABBF1EF3271E00FD1E4C /* DSRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSRootViewController.h; sourceTree = "<group>"; };
 		461DABC01EF3271E00FD1E4C /* DSRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSRootViewController.m; sourceTree = "<group>"; };
+		461DABC21EF466D900FD1E4C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		465F6C6E1EEB6CE900F93B93 /* Fast Forecast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fast Forecast.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		465F6C721EEB6CE900F93B93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		465F6C741EEB6CE900F93B93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				461DABC31EF466D900FD1E4C /* SystemConfiguration.framework in Frameworks */,
 				465F6C9A1EEB6FFA00F93B93 /* AFNetworking.framework in Frameworks */,
 				ADED95557891D7B46E0A186A /* Pods_Fast_Forecast.framework in Frameworks */,
 			);
@@ -201,6 +204,7 @@
 		4E26D9B85755408C69057058 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				461DABC21EF466D900FD1E4C /* SystemConfiguration.framework */,
 				465F6C991EEB6FFA00F93B93 /* AFNetworking.framework */,
 				35B6C3A93CA72D5B8B65D7C7 /* Pods_Fast_Forecast.framework */,
 			);
@@ -245,6 +249,7 @@
 		465F6C661EEB6CE900F93B93 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DS;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Dmitry Shadrin";
 				TargetAttributes = {
