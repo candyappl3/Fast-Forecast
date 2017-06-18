@@ -24,7 +24,6 @@
     self.tableView.dataSource = self;
     
     [self.tableView setContentInset:UIEdgeInsetsMake(0, 0, 44.f, 0)];
-
 }
 
 #pragma mark - UITableViewDataSource
