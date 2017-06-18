@@ -7,28 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		460E5E761EF6D8E50053B450 /* DSServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 460E5E751EF6D8E50053B450 /* DSServerManager.m */; };
+		461055BD1EF6DFCA00BD3C8C /* DSCurrentConditionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 461055BC1EF6DFCA00BD3C8C /* DSCurrentConditionViewController.m */; };
+		461055D71EF6E04E00BD3C8C /* blizzard.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 461055CF1EF6E04E00BD3C8C /* blizzard.jpeg */; };
+		461055D81EF6E04E00BD3C8C /* clearSky.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 461055D01EF6E04E00BD3C8C /* clearSky.jpeg */; };
+		461055D91EF6E04E00BD3C8C /* cloudy.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 461055D11EF6E04E00BD3C8C /* cloudy.jpeg */; };
+		461055DA1EF6E04E00BD3C8C /* mainlyCloudy.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 461055D21EF6E04E00BD3C8C /* mainlyCloudy.jpeg */; };
+		461055DB1EF6E04E00BD3C8C /* rain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 461055D31EF6E04E00BD3C8C /* rain.jpg */; };
+		461055DC1EF6E04E00BD3C8C /* snow.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 461055D41EF6E04E00BD3C8C /* snow.jpeg */; };
+		461055DD1EF6E04E00BD3C8C /* storm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 461055D51EF6E04E00BD3C8C /* storm.jpg */; };
+		461055DE1EF6E04E00BD3C8C /* thunderstorm.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 461055D61EF6E04E00BD3C8C /* thunderstorm.jpeg */; };
 		461DABC11EF3271E00FD1E4C /* DSRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 461DABC01EF3271E00FD1E4C /* DSRootViewController.m */; };
 		461DABC31EF466D900FD1E4C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 461DABC21EF466D900FD1E4C /* SystemConfiguration.framework */; };
 		465F6C731EEB6CE900F93B93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 465F6C721EEB6CE900F93B93 /* main.m */; };
 		465F6C761EEB6CE900F93B93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 465F6C751EEB6CE900F93B93 /* AppDelegate.m */; };
 		465F6C7E1EEB6CE900F93B93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 465F6C7D1EEB6CE900F93B93 /* Assets.xcassets */; };
 		465F6C811EEB6CE900F93B93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 465F6C7F1EEB6CE900F93B93 /* LaunchScreen.storyboard */; };
-		465F6C8E1EEB6E6600F93B93 /* DSCurrentConditionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 465F6C8A1EEB6E6600F93B93 /* DSCurrentConditionViewController.m */; };
-		465F6C8F1EEB6E6600F93B93 /* DSServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 465F6C8C1EEB6E6600F93B93 /* DSServerManager.m */; };
 		465F6C971EEB6EF000F93B93 /* DSWeatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 465F6C961EEB6EF000F93B93 /* DSWeatherModel.m */; };
 		465F6C9A1EEB6FFA00F93B93 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 465F6C991EEB6FFA00F93B93 /* AFNetworking.framework */; };
 		465F6CAC1EEC0E3B00F93B93 /* DSLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 465F6CAB1EEC0E3B00F93B93 /* DSLocationManager.m */; };
 		465F6CAF1EEC6CD600F93B93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 465F6C7A1EEB6CE900F93B93 /* Main.storyboard */; };
 		465F6CB61EEC6E4300F93B93 /* DSAdviceAndBackgroundCast.m in Sources */ = {isa = PBXBuildFile; fileRef = 465F6CB51EEC6E4300F93B93 /* DSAdviceAndBackgroundCast.m */; };
 		46D311BE1EEF0B98002CCD2C /* DSForecastModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D311BD1EEF0B98002CCD2C /* DSForecastModel.m */; };
-		46D311C81EEF3668002CCD2C /* blizzard.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 46D311C01EEF3668002CCD2C /* blizzard.jpeg */; };
-		46D311C91EEF3668002CCD2C /* clearSky.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 46D311C11EEF3668002CCD2C /* clearSky.jpeg */; };
-		46D311CA1EEF3668002CCD2C /* cloudy.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 46D311C21EEF3668002CCD2C /* cloudy.jpeg */; };
-		46D311CB1EEF3668002CCD2C /* mainlyCloudy.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 46D311C31EEF3668002CCD2C /* mainlyCloudy.jpeg */; };
-		46D311CC1EEF3668002CCD2C /* rain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 46D311C41EEF3668002CCD2C /* rain.jpg */; };
-		46D311CD1EEF3668002CCD2C /* snow.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 46D311C51EEF3668002CCD2C /* snow.jpeg */; };
-		46D311CE1EEF3668002CCD2C /* storm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 46D311C61EEF3668002CCD2C /* storm.jpg */; };
-		46D311CF1EEF3668002CCD2C /* thunderstorm.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 46D311C71EEF3668002CCD2C /* thunderstorm.jpeg */; };
 		46D311D51EEF454E002CCD2C /* DSWeekForecastController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D311D41EEF454E002CCD2C /* DSWeekForecastController.m */; };
 		46D311DA1EEF45A0002CCD2C /* DSDayWeatherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D311D91EEF45A0002CCD2C /* DSDayWeatherCell.m */; };
 		46D311DD1EF04929002CCD2C /* DSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D311DC1EF04929002CCD2C /* DSModel.m */; };
@@ -37,6 +37,18 @@
 
 /* Begin PBXFileReference section */
 		35B6C3A93CA72D5B8B65D7C7 /* Pods_Fast_Forecast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fast_Forecast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		460E5E751EF6D8E50053B450 /* DSServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSServerManager.m; sourceTree = "<group>"; };
+		460E5E771EF6D8EC0053B450 /* DSServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSServerManager.h; sourceTree = "<group>"; };
+		461055BB1EF6DFCA00BD3C8C /* DSCurrentConditionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSCurrentConditionViewController.h; sourceTree = "<group>"; };
+		461055BC1EF6DFCA00BD3C8C /* DSCurrentConditionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSCurrentConditionViewController.m; sourceTree = "<group>"; };
+		461055CF1EF6E04E00BD3C8C /* blizzard.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blizzard.jpeg; sourceTree = "<group>"; };
+		461055D01EF6E04E00BD3C8C /* clearSky.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clearSky.jpeg; sourceTree = "<group>"; };
+		461055D11EF6E04E00BD3C8C /* cloudy.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cloudy.jpeg; sourceTree = "<group>"; };
+		461055D21EF6E04E00BD3C8C /* mainlyCloudy.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mainlyCloudy.jpeg; sourceTree = "<group>"; };
+		461055D31EF6E04E00BD3C8C /* rain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rain.jpg; sourceTree = "<group>"; };
+		461055D41EF6E04E00BD3C8C /* snow.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snow.jpeg; sourceTree = "<group>"; };
+		461055D51EF6E04E00BD3C8C /* storm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = storm.jpg; sourceTree = "<group>"; };
+		461055D61EF6E04E00BD3C8C /* thunderstorm.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thunderstorm.jpeg; sourceTree = "<group>"; };
 		461DABBF1EF3271E00FD1E4C /* DSRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSRootViewController.h; sourceTree = "<group>"; };
 		461DABC01EF3271E00FD1E4C /* DSRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSRootViewController.m; sourceTree = "<group>"; };
 		461DABC21EF466D900FD1E4C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -48,10 +60,6 @@
 		465F6C7D1EEB6CE900F93B93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		465F6C801EEB6CE900F93B93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		465F6C821EEB6CE900F93B93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		465F6C891EEB6E6600F93B93 /* DSCurrentConditionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSCurrentConditionViewController.h; path = ../../newBlocksTest/newBlocksTest/DSCurrentConditionViewController.h; sourceTree = "<group>"; };
-		465F6C8A1EEB6E6600F93B93 /* DSCurrentConditionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSCurrentConditionViewController.m; path = ../../newBlocksTest/newBlocksTest/DSCurrentConditionViewController.m; sourceTree = "<group>"; };
-		465F6C8B1EEB6E6600F93B93 /* DSServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSServerManager.h; path = ../../newBlocksTest/newBlocksTest/DSServerManager.h; sourceTree = "<group>"; };
-		465F6C8C1EEB6E6600F93B93 /* DSServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSServerManager.m; path = ../../newBlocksTest/newBlocksTest/DSServerManager.m; sourceTree = "<group>"; };
 		465F6C951EEB6EF000F93B93 /* DSWeatherModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSWeatherModel.h; sourceTree = "<group>"; };
 		465F6C961EEB6EF000F93B93 /* DSWeatherModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSWeatherModel.m; sourceTree = "<group>"; };
 		465F6C991EEB6FFA00F93B93 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Fast_Forecast-cguomzryviakfygolcnaturyowzw/Build/Products/Debug-iphonesimulator/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
@@ -61,14 +69,6 @@
 		465F6CB51EEC6E4300F93B93 /* DSAdviceAndBackgroundCast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSAdviceAndBackgroundCast.m; sourceTree = "<group>"; };
 		46D311BC1EEF0B98002CCD2C /* DSForecastModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSForecastModel.h; sourceTree = "<group>"; };
 		46D311BD1EEF0B98002CCD2C /* DSForecastModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSForecastModel.m; sourceTree = "<group>"; };
-		46D311C01EEF3668002CCD2C /* blizzard.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blizzard.jpeg; sourceTree = "<group>"; };
-		46D311C11EEF3668002CCD2C /* clearSky.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clearSky.jpeg; sourceTree = "<group>"; };
-		46D311C21EEF3668002CCD2C /* cloudy.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cloudy.jpeg; sourceTree = "<group>"; };
-		46D311C31EEF3668002CCD2C /* mainlyCloudy.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mainlyCloudy.jpeg; sourceTree = "<group>"; };
-		46D311C41EEF3668002CCD2C /* rain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rain.jpg; sourceTree = "<group>"; };
-		46D311C51EEF3668002CCD2C /* snow.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snow.jpeg; sourceTree = "<group>"; };
-		46D311C61EEF3668002CCD2C /* storm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = storm.jpg; sourceTree = "<group>"; };
-		46D311C71EEF3668002CCD2C /* thunderstorm.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thunderstorm.jpeg; sourceTree = "<group>"; };
 		46D311D31EEF454E002CCD2C /* DSWeekForecastController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSWeekForecastController.h; sourceTree = "<group>"; };
 		46D311D41EEF454E002CCD2C /* DSWeekForecastController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSWeekForecastController.m; sourceTree = "<group>"; };
 		46D311D81EEF45A0002CCD2C /* DSDayWeatherCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSDayWeatherCell.h; sourceTree = "<group>"; };
@@ -93,6 +93,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		461055CE1EF6E04E00BD3C8C /* weather */ = {
+			isa = PBXGroup;
+			children = (
+				461055CF1EF6E04E00BD3C8C /* blizzard.jpeg */,
+				461055D01EF6E04E00BD3C8C /* clearSky.jpeg */,
+				461055D11EF6E04E00BD3C8C /* cloudy.jpeg */,
+				461055D21EF6E04E00BD3C8C /* mainlyCloudy.jpeg */,
+				461055D31EF6E04E00BD3C8C /* rain.jpg */,
+				461055D41EF6E04E00BD3C8C /* snow.jpeg */,
+				461055D51EF6E04E00BD3C8C /* storm.jpg */,
+				461055D61EF6E04E00BD3C8C /* thunderstorm.jpeg */,
+			);
+			path = weather;
+			sourceTree = "<group>";
+		};
 		465F6C651EEB6CE900F93B93 = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +133,7 @@
 				465F6C981EEB6EFA00F93B93 /* Models */,
 				46D311D61EEF4566002CCD2C /* Controllers */,
 				465F6C7A1EEB6CE900F93B93 /* Main.storyboard */,
+				465F6C7F1EEB6CE900F93B93 /* LaunchScreen.storyboard */,
 				46D311D71EEF4572002CCD2C /* Cells */,
 				465F6C711EEB6CE900F93B93 /* Supporting Files */,
 			);
@@ -127,15 +143,14 @@
 		465F6C711EEB6CE900F93B93 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				46D311BF1EEF3668002CCD2C /* weather */,
+				461055CE1EF6E04E00BD3C8C /* weather */,
 				465F6C741EEB6CE900F93B93 /* AppDelegate.h */,
 				465F6C751EEB6CE900F93B93 /* AppDelegate.m */,
 				465F6C7D1EEB6CE900F93B93 /* Assets.xcassets */,
-				465F6C7F1EEB6CE900F93B93 /* LaunchScreen.storyboard */,
 				465F6C821EEB6CE900F93B93 /* Info.plist */,
 				465F6C721EEB6CE900F93B93 /* main.m */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		465F6C981EEB6EFA00F93B93 /* Models */ = {
@@ -150,46 +165,32 @@
 				465F6CB41EEC6E4300F93B93 /* DSAdviceAndBackgroundCast.h */,
 				465F6CB51EEC6E4300F93B93 /* DSAdviceAndBackgroundCast.m */,
 			);
-			name = Models;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		465F6CB01EEC6DAD00F93B93 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				460E5E771EF6D8EC0053B450 /* DSServerManager.h */,
+				460E5E751EF6D8E50053B450 /* DSServerManager.m */,
 				465F6CAA1EEC0E3B00F93B93 /* DSLocationManager.h */,
 				465F6CAB1EEC0E3B00F93B93 /* DSLocationManager.m */,
-				465F6C8B1EEB6E6600F93B93 /* DSServerManager.h */,
-				465F6C8C1EEB6E6600F93B93 /* DSServerManager.m */,
 			);
 			name = Managers;
-			sourceTree = "<group>";
-		};
-		46D311BF1EEF3668002CCD2C /* weather */ = {
-			isa = PBXGroup;
-			children = (
-				46D311C01EEF3668002CCD2C /* blizzard.jpeg */,
-				46D311C11EEF3668002CCD2C /* clearSky.jpeg */,
-				46D311C21EEF3668002CCD2C /* cloudy.jpeg */,
-				46D311C31EEF3668002CCD2C /* mainlyCloudy.jpeg */,
-				46D311C41EEF3668002CCD2C /* rain.jpg */,
-				46D311C51EEF3668002CCD2C /* snow.jpeg */,
-				46D311C61EEF3668002CCD2C /* storm.jpg */,
-				46D311C71EEF3668002CCD2C /* thunderstorm.jpeg */,
-			);
-			path = weather;
-			sourceTree = "<group>";
+			path = "/Users/dmitryshadrin/Desktop/iOSDevelopment Course/TEST/Fast Forecast/Fast Forecast/Managers";
+			sourceTree = "<absolute>";
 		};
 		46D311D61EEF4566002CCD2C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				461055BB1EF6DFCA00BD3C8C /* DSCurrentConditionViewController.h */,
+				461055BC1EF6DFCA00BD3C8C /* DSCurrentConditionViewController.m */,
 				461DABBF1EF3271E00FD1E4C /* DSRootViewController.h */,
 				461DABC01EF3271E00FD1E4C /* DSRootViewController.m */,
-				465F6C891EEB6E6600F93B93 /* DSCurrentConditionViewController.h */,
-				465F6C8A1EEB6E6600F93B93 /* DSCurrentConditionViewController.m */,
 				46D311D31EEF454E002CCD2C /* DSWeekForecastController.h */,
 				46D311D41EEF454E002CCD2C /* DSWeekForecastController.m */,
 			);
-			name = Controllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		46D311D71EEF4572002CCD2C /* Cells */ = {
@@ -198,7 +199,7 @@
 				46D311D81EEF45A0002CCD2C /* DSDayWeatherCell.h */,
 				46D311D91EEF45A0002CCD2C /* DSDayWeatherCell.m */,
 			);
-			name = Cells;
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		4E26D9B85755408C69057058 /* Frameworks */ = {
@@ -284,16 +285,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				465F6C811EEB6CE900F93B93 /* LaunchScreen.storyboard in Resources */,
-				46D311CE1EEF3668002CCD2C /* storm.jpg in Resources */,
-				46D311CD1EEF3668002CCD2C /* snow.jpeg in Resources */,
-				46D311CC1EEF3668002CCD2C /* rain.jpg in Resources */,
-				46D311CF1EEF3668002CCD2C /* thunderstorm.jpeg in Resources */,
-				46D311CB1EEF3668002CCD2C /* mainlyCloudy.jpeg in Resources */,
+				461055DD1EF6E04E00BD3C8C /* storm.jpg in Resources */,
+				461055DC1EF6E04E00BD3C8C /* snow.jpeg in Resources */,
+				461055DB1EF6E04E00BD3C8C /* rain.jpg in Resources */,
+				461055DE1EF6E04E00BD3C8C /* thunderstorm.jpeg in Resources */,
+				461055DA1EF6E04E00BD3C8C /* mainlyCloudy.jpeg in Resources */,
 				465F6C7E1EEB6CE900F93B93 /* Assets.xcassets in Resources */,
 				465F6CAF1EEC6CD600F93B93 /* Main.storyboard in Resources */,
-				46D311C91EEF3668002CCD2C /* clearSky.jpeg in Resources */,
-				46D311C81EEF3668002CCD2C /* blizzard.jpeg in Resources */,
-				46D311CA1EEF3668002CCD2C /* cloudy.jpeg in Resources */,
+				461055D81EF6E04E00BD3C8C /* clearSky.jpeg in Resources */,
+				461055D71EF6E04E00BD3C8C /* blizzard.jpeg in Resources */,
+				461055D91EF6E04E00BD3C8C /* cloudy.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,18 +353,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				465F6C8E1EEB6E6600F93B93 /* DSCurrentConditionViewController.m in Sources */,
 				465F6CB61EEC6E4300F93B93 /* DSAdviceAndBackgroundCast.m in Sources */,
+				461055BD1EF6DFCA00BD3C8C /* DSCurrentConditionViewController.m in Sources */,
 				465F6C971EEB6EF000F93B93 /* DSWeatherModel.m in Sources */,
 				46D311BE1EEF0B98002CCD2C /* DSForecastModel.m in Sources */,
 				46D311DD1EF04929002CCD2C /* DSModel.m in Sources */,
-				465F6C8F1EEB6E6600F93B93 /* DSServerManager.m in Sources */,
 				465F6C761EEB6CE900F93B93 /* AppDelegate.m in Sources */,
 				461DABC11EF3271E00FD1E4C /* DSRootViewController.m in Sources */,
 				46D311D51EEF454E002CCD2C /* DSWeekForecastController.m in Sources */,
 				465F6C731EEB6CE900F93B93 /* main.m in Sources */,
 				46D311DA1EEF45A0002CCD2C /* DSDayWeatherCell.m in Sources */,
 				465F6CAC1EEC0E3B00F93B93 /* DSLocationManager.m in Sources */,
+				460E5E761EF6D8E50053B450 /* DSServerManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,7 +486,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SA6ZVW4F57;
-				INFOPLIST_FILE = "Fast Forecast/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Fast Forecast/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dShadrin.Fast-Forecast";
@@ -500,7 +501,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SA6ZVW4F57;
-				INFOPLIST_FILE = "Fast Forecast/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Fast Forecast/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dShadrin.Fast-Forecast";
