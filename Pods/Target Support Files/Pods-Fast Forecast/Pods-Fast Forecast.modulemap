@@ -1,0 +1,6 @@
+framework module Pods_Fast_Forecast {
+  umbrella header "Pods-Fast Forecast-umbrella.h"
+
+  export *
+  module * { export * }
+}
