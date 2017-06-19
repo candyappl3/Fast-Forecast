@@ -183,10 +183,10 @@
 		46D311D61EEF4566002CCD2C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				461055BB1EF6DFCA00BD3C8C /* DSCurrentConditionViewController.h */,
-				461055BC1EF6DFCA00BD3C8C /* DSCurrentConditionViewController.m */,
 				461DABBF1EF3271E00FD1E4C /* DSRootViewController.h */,
 				461DABC01EF3271E00FD1E4C /* DSRootViewController.m */,
+				461055BB1EF6DFCA00BD3C8C /* DSCurrentConditionViewController.h */,
+				461055BC1EF6DFCA00BD3C8C /* DSCurrentConditionViewController.m */,
 				46D311D31EEF454E002CCD2C /* DSWeekForecastController.h */,
 				46D311D41EEF454E002CCD2C /* DSWeekForecastController.m */,
 			);
