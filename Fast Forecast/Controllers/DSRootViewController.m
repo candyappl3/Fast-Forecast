@@ -78,7 +78,7 @@
     [[DSServerManager sharedManager] getCurrentWeatherConditionFromLocation:self.currentLocation
       onSuccess:^(DSWeatherModel *weather, NSArray* forecast) {
           
-          if (weather.temperature) {
+          if (![weather.temperature isEqualToString:@"(null)º"]) {
               
               self.weatherBackground.image = weather.weatherBackround;
               self.currentConditionVC.cityName = self.cityName;
@@ -91,7 +91,9 @@
                                                  animated:YES completion:nil];
           }else{
               
-              [self loadCurrentWeather];
+              dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                  [self loadCurrentWeather];
+              });
           }
           
           
