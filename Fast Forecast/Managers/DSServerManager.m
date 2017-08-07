@@ -55,7 +55,7 @@
     NSString* coordinates = [NSString stringWithFormat:@"%f,%f", location.coordinate.latitude, location.coordinate.longitude];
     
     
-    NSDictionary* parameters = [NSDictionary dictionaryWithObjectsAndKeys: @"4fc04403a123417c842171159170906",  @"key",
+    NSDictionary* parameters = [NSDictionary dictionaryWithObjectsAndKeys: @"bde6593f46e14537906151047170708",  @"key",
                                                                                                 coordinates,    @"q",
                                                                                                 @"json",        @"format",
                                                                                                 @"ru",          @"lang",
